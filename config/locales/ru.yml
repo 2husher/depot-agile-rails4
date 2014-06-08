@@ -1,0 +1,63 @@
+ru:
+
+  layouts:
+    application:
+      title:     "Библиотека прагматика"
+      home:      "Домашняя"
+      questions: "Вопросы"
+      news:      "Новости"
+      contact:   "Контакты"
+
+  store:
+    index:
+      add_html:   "Положить в корзину"
+      title_html: "Каталог прагматика"
+
+  carts:
+    cart:
+      title:      "Корзина"
+      checkout:   "Оформить заказ"
+      empty:      "Очистить корзину"
+
+  number:
+    currency:
+      format:   
+        unit:      "руб."
+        precision:  2
+        separator: "."
+        delimiter: ","
+        format:    "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend:          "Пожалуйста, заполните форму"
+    form:
+      name:            "Имя"
+      address_html:    "Адрес"
+      email:           "E-mail"
+      pay_type:        "Способ оплаты"
+      pay_prompt_html: "Выберете способ оплаты"
+      submit:          "Оформить заказ"
+
+  activerecord:
+    models:
+      order:    "заказ"
+    attributes: 
+      order:    
+        address:  "Адресс"
+        name:     "Имя"
+        email:    "E-mail"
+        pay_type: "Способ оплаты"
+    errors:
+      messages:
+        inclusion: "не входит в список"
+        blank:     "не может быть пустым"
+
+  errors:
+      template:
+        body:   "В следующих полях присутствуют ошибки"
+        header:
+          one:   "1 ошибка не позволила сохранить %{model}"
+          other: "%{count} ошибок не позволили сохранить %{model}"
+
+  thanks: "Спасибо за ваш заказ"
